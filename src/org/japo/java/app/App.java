@@ -29,10 +29,10 @@ public class App {
         
         System.out.println("PROPIEDADES DE USUARIO");
         System.out.println("======================");
-        System.out.printf("Maquina ..: %s%n", prp.getProperty("host"));
-        System.out.printf("Puerto ...: %s%n", prp.getProperty("port"));
-        System.out.printf("Usuario ..: %s%n", prp.getProperty("user"));
-        System.out.printf("Password .: %s%n", prp.getProperty("pass"));
-        System.out.printf("IP .......: %s%n", prp.getProperty("ip"));
+        System.out.printf("Maquina ....: %s%n", prp.getProperty("host"));
+        System.out.printf("Puerto .....: %s%n", prp.getProperty("port"));
+        System.out.printf("Usuario ....: %s%n", prp.getProperty("user"));
+        System.out.printf("Password ...: %s%n", prp.getProperty("pass"));
+        System.out.printf("IP .........: %s%n", prp.getProperty("ip"));
     }
 }
